@@ -3,11 +3,11 @@ services:
     image: dockurr/windows
     container_name: windows
     environment:
-      VERSION: "10"
+      VERSION: "9"
       USERNAME: "hery"
       PASSWORD: "Hery@123"
-      RAM_SIZE: "8G"
-      CPU_CORES: "3"
+      RAM_SIZE: "13"
+      CPU_CORES: "4"
       DISK_SIZE: "800G"
     devices:
       - /dev/kvm
