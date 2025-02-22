@@ -6,9 +6,9 @@ services:
       VERSION: "9"
       USERNAME: "hery"
       PASSWORD: "Hery@123"
-      RAM_SIZE: "13"
+      RAM_SIZE: "12"
       CPU_CORES: "4"
-      DISK_SIZE: "800G"
+      DISK_SIZE: "700G"
     devices:
       - /dev/kvm
       - /dev/net/tun
