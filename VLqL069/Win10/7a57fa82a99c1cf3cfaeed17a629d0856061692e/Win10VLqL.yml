@@ -3,12 +3,12 @@ services:
     image: dockurr/windows
     container_name: windows
     environment:
-      VERSION: "9"
+      VERSION: "10"
       USERNAME: "hery"
       PASSWORD: "Hery@123"
       RAM_SIZE: "12"
       CPU_CORES: "4"
-      DISK_SIZE: "700G"
+      DISK_SIZE: "1000G"
     devices:
       - /dev/kvm
       - /dev/net/tun
